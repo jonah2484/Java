@@ -1,0 +1,19 @@
+class Main {
+    public static void main(String[] args) {
+        int a = 10, b = 20;
+        int addition, subtraction, multiplication;
+        float division;  // Change division to float for decimal results
+
+        addition = a + b;
+        System.out.println("ADDITION OF TWO NUMBERS IS = " + addition);
+
+        subtraction = a - b;
+        System.out.println("SUBTRACTION OF TWO NUMBERS IS = " + subtraction);
+
+        multiplication = a * b;
+        System.out.println("MULTIPLICATION OF TWO NUMBERS IS = " + multiplication);
+
+        division = (float) a / b;  // Cast to float to get accurate decimal result
+        System.out.println("DIVISION OF TWO NUMBERS IS = " + division);  // Print division result
+    }
+}
