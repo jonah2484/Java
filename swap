@@ -1,0 +1,15 @@
+import java.util.*;
+class Swap{
+public static void main (String args[]){
+ int a,b,c;
+scanner sc= new scanner (System.in)
+a = sc.next int();
+b = sc.next int();
+c = sc.next int();
+c=a;
+a=b;
+b=c;
+System.out.println("values after swap");
+System.out.println("a="+a);
+System.out.println("b="+b);
+}}
